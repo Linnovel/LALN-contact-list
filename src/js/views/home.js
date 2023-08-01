@@ -28,11 +28,11 @@ export const Home = () => {
 
 		<div>
 			<div className="d-flex-justify-content-flex-end text-center">
+			<h1>Agrega tu contacto</h1>
 			<Link to="/forms">
 				<button className="btn btn-success">Agregar Contacto</button>
 			</Link>
 			</div>
-			
 			{
 				store.contacList.map((contacto, index) => {
 					return (
